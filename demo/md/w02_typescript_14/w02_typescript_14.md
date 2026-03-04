@@ -23,12 +23,10 @@ e3d52ec zero2005x       Wed Mar 4 18:41:27 2026 +0800   w02-P1: Type Alias Demo 
 ![](w02-p3.png)
 
 ```
-
+3865699 zero2005x       Wed Mar 4 19:28:04 2026 +0800    W02-P3: Interface Demo in t5.ts
 ```
 
-### w02-P4:
-
-#### =>
+### W02-P4: Modules - import and export in t6.ts and t6a.ts
 
 ![](w02-p4.png)
 
