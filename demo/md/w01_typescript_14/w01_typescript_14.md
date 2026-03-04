@@ -11,7 +11,7 @@
 ![](w01-p1-2.png)
 
 ```
-Wed Feb 25 18:50:47 2026 +0800 Initialize TypeScript project first commit
+a9eff33 zero2005x       Wed Feb 25 18:50:47 2026 +0800  first commit
 ```
 
 ### W01-P2:TypeScript tutorials (1)
@@ -25,8 +25,7 @@ Wed Feb 25 18:50:47 2026 +0800 Initialize TypeScript project first commit
 #### =>
 
 ```
-Wed Feb 25 18:59:11 2026 +0800
-with Vite setup, add basic counter functionality, and create example TypeScript file demonstrating types and union types.
+f4a7587 zero2005x       Wed Feb 25 18:59:11 2026 +0800  Initialize TypeScript project with Vite setup, add basic counter functionality, and create example TypeScript file demonstrating types and union types.
 ```
 
 ### W01-P3: TypeScript tutorials (2)
@@ -36,7 +35,17 @@ with Vite setup, add basic counter functionality, and create example TypeScript 
 ![](w01-p3.png)
 
 ```
-Wed Feb 25 19:47:53 2026 +0800 feat: update project dependencies and add tutorial files
+615b8c7 zero2005x       Wed Feb 25 19:47:53 2026 +0800  feat: update project dependencies and add tutorial files
+```
+
+### W01-P4: TypeScript tutorials (3)
+
+#### => Function Fundamentals
+
+![](w01-p4.png)
+
+```
+fb1b2be zero2005x       Wed Feb 25 20:20:39 2026 +0800  Refactor code structure for improved readability and maintainability
 ```
 
 ### W01-logs: git logs of W01
