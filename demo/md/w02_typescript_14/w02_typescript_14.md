@@ -12,15 +12,13 @@ e3d52ec zero2005x       Wed Mar 4 18:41:27 2026 +0800   w02-P1: Type Alias Demo 
 
 ### w02-P2: Type Alias Demo in t3.ts
 
-![](w02-p2.png)
+![](w02_p2.png)
 
 ```
-
+57cb616 zero2005x       Wed Mar 4 19:11:20 2026 +0800   w02-P2: Type Alias Demo in t3.ts
 ```
 
-### w02-P3:
-
-#### =>
+### W02-P3: Interface Demo in t5.ts
 
 ![](w02-p3.png)
 
