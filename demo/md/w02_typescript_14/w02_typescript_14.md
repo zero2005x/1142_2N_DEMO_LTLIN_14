@@ -44,6 +44,28 @@ e3d52ec zero2005x       Wed Mar 4 18:41:27 2026 +0800   w02-P1: Type Alias Demo 
 
 ![](w02-p5-2.png)
 
+```
+787f22b zero2005x       Wed Mar 4 20:10:57 2026 +0800   W02-P5: Generics Demo in t7.ts
+```
+
+### W02-P6: Fetch Data Demo in t8.ts, t8c1.ts, t8c2.ts
+
+#### => add Tour type
+
+![](w02-p6-1.png)
+
+#### => use zod to validate data (success)
+
+![](w02-p6-2.png)
+
+#### => user zod to validate data (invalid data)
+
+![](w02-p6-3.png)
+
+```
+
+```
+
 ### w02-logs: git logs of w02
 
 ![](w02-logs.png)
