@@ -63,7 +63,7 @@ e3d52ec zero2005x       Wed Mar 4 18:41:27 2026 +0800   w02-P1: Type Alias Demo 
 ![](w02-p6-3.png)
 
 ```
-
+fc71d6d zero2005x       Wed Mar 4 20:47:53 2026 +0800   W02-P6: Fetch Data Demo in t8.ts, t8c1.ts, t8c2.ts
 ```
 
 ### w02-logs: git logs of w02
