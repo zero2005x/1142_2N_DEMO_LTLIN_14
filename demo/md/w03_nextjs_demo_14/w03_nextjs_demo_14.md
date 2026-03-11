@@ -5,60 +5,22 @@
 ![](w03-p1-1.png)
 
 ```
-
+764583c zero2005x       Wed Mar 11 19:22:54 2026 +0800   W03-P1: Show Navbar_xx with meta data
 ```
 
-### w03-P2:
+### W03-P2: Implment /tours_xx using Next Image
 
-![](w03_p2.png)
+#### => use original <img />
 
-```
+![](w03-p2-1.png)
 
-```
+#### => use <Image />
 
-### w03-P3:
+![](w03-p2-2.png)
 
-![](w03-p3.png)
+#### => use <Image />, complicate rendering for Browser
 
-```
-
-```
-
-### w03-P4:
-
-![](w03-p4.png)
-
-```
-
-```
-
-### w03-P5:
-
-#### =>
-
-![](w03-p5-1.png)
-
-#### =>
-
-![](w03-p5-2.png)
-
-```
-
-```
-
-### w03-P6:
-
-#### =>
-
-![](w03-p6-1.png)
-
-#### =>
-
-![](w03-p6-2.png)
-
-#### =>
-
-![](w03-p6-3.png)
+![](w03-p2-3.png)
 
 ```
 
