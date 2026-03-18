@@ -29,10 +29,22 @@
 ![](w04-p2-3.png)
 
 ```
+20802b5 zero2005x       Wed Mar 18 20:54:23 2026 +0800  w04-P2: W04-P2: Repeat W04-P1, but work on Supabase
+```
+
+### W04-P3: implement User_db_xx using server action
+
+#### => Chrome, show 2 users fetch from Supabase
+
+![](w04-p3-1.png)
+
+#### => show the code, the concept of server action
+
+![](w04-p3-2.png)
 
 ```
 
-### w04-P3
+```
 
 ### w04-logs: git logs of w04
 
