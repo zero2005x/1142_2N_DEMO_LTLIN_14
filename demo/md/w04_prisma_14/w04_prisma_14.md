@@ -11,7 +11,7 @@
 ![](w04-p1-2.png)
 
 ```
-
+53270c0 zero2005x       Wed Mar 18 20:38:19 2026 +0800  W04-P1: Create tables and data using Prisma with Studio
 ```
 
 ### w04-P2: W04-P2: Repeat W04-P1, but work on Supabase
@@ -31,6 +31,8 @@
 ```
 
 ```
+
+### w04-P3
 
 ### w04-logs: git logs of w04
 
