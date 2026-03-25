@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-import { prisma } from "./src/app/lib/prisma";
+import { prisma } from "./src/lib/prisma";
 
 async function main() {
     const email = `alice+${Date.now()}@prisma.io`;
