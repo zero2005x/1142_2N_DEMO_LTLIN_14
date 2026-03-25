@@ -1,0 +1,56 @@
+[Github URL](https://github.com/zero2005x/1142_2N_DEMO_LTLIN_14)
+[Vercel URL](https://1142-vercel-ltlin-14.vercel.app/)
+
+### W05-P1: Create a new Github repo and deploy to Vercel
+ 
+#### => "npm run build" with success
+ 
+![](w05-p1-1.png)
+ 
+#### => Deploy to Vercel, add env variables
+ 
+![](w05-p1-2.png)
+ 
+#### => Show users fetch from Supabase
+ 
+![](w05-p1-3.png)
+ 
+#### => Github repo with Vercel link
+ 
+![](w05-p1-4.png)
+ 
+```
+
+```
+
+### W05-P2: Create User using server action
+ 
+#### => input an user and save it to Supabase
+ 
+![](w05-p2-1.png)
+ 
+#### => show how formData works
+ 
+![](w05-p2-2.png)
+ 
+```
+```
+
+### W05-P3:W05-P3: Delete an user from Supabase
+ 
+#### => from console.log show an user being deleted
+ 
+![](w05-p3-1.png)
+ 
+#### => show how code is working
+ 
+![](w05-p3-2.png)
+ 
+
+```
+
+```
+
+### W05-logs: git logs of W05
+
+![](W05-logs.png)
