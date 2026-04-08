@@ -21,7 +21,7 @@ c6b73aa zero2005x       Wed Apr 8 18:53:31 2026 +0800   W07-P1: implement /groce
 
  
 ```
-
+65c61ca zero2005x       Wed Apr 8 20:34:34 2026 +0800   W07-P2: deploy to Vercel
 ```
 
 ### W07-P3: Grocery READ and CREATE
