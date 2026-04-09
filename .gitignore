@@ -5,6 +5,7 @@ node_modules/
 dist/
 build/
 .next/
+out/
 
 # Logs
 logs/
@@ -21,6 +22,19 @@ lerna-debug.log*
 # Testing
 coverage/
 
+# Environment variables
+.env*
+!.env.example
+
+# Prisma / database
+*.db
+*.db-journal
+prisma/dev.db
+prisma/dev.db-journal
+
+# Deployment
+.vercel/
+
 # Editor / IDE
 .vscode/*
 !.vscode/settings.json
@@ -29,20 +43,8 @@ coverage/
 *.swp
 *.swo
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # OS generated files
 .DS_Store
 Thumbs.db
 Desktop.ini
 ehthumbs.db
-
-# Package manager lock files (optional, uncomment if needed)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
