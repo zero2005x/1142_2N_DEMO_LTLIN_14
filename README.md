@@ -22,6 +22,7 @@
 - `w03_nextjs_demo_14`：Next.js App Router、Navbar、`next/image` 與 tours 頁面。
 - `w04_prisma_14`：Next.js + Prisma + Supabase，建立 `User` / `Post` 資料表並讀取資料。
 - `w05_user_14`：延續 `w04`，加入 server actions 完成使用者新增、修改、刪除與回饋訊息。
+- `w07_code_stud_14`：購物清單應用，包含客戶端 (localStorage) 與資料庫版本的 CRUD 實作。
 - `demo/md`：每週 markdown 筆記、操作截圖與紀錄。
 
 ## 各週內容摘要
@@ -57,15 +58,27 @@
 - 實作 `user_db_14` 頁面，使用 server actions 進行新增、修改、刪除。
 - 表單元件已加入提交狀態與操作結果訊息顯示。
 
-## 最新重點：`w05_user_14`
+### W07
 
-目前最完整的示範專案是 `w05_user_14`，整合了以下功能：
+- 實作購物清單 (Grocery List) 應用，包含兩種版本：
+  - `grocery_14`：客戶端實作，使用 localStorage 儲存資料
+  - `grocery_db_14`：資料庫實作，使用 Prisma + Supabase 進行 CRUD 操作
+- 將刪除按鈕重構為獨立的 `DeleteButton_14` 元件
+- 實作商品的新增、刪除、完成狀態切換功能
+- 使用 `react-toastify` 提供使用者操作回饋
+- 專案已部署到 Vercel
 
-- `src/app/tours_14`：讀取外部 tours API，練習 App Router 與 `next/image`。
-- `src/app/supabase_14`：以伺服器端金鑰讀取 Supabase 資料。
-- `src/app/user_db_14`：透過 Prisma server actions 管理使用者資料。
-- `src/actions/userAction_14.ts`：集中處理 `fetchUsers`、`createUser`、`updateUser`、`removeUser`。
-- `prisma/schema.prisma`：定義 `User` 與 `Post` 模型。
+## 最新重點：`w07_code_stud_14`
+
+目前最新的示範專案是 `w07_code_stud_14`，整合了以下功能：
+
+- `src/app/grocery_14`：客戶端購物清單，使用 localStorage 進行資料持久化
+- `src/app/grocery_db_14`：資料庫版購物清單，整合 Prisma + Supabase
+- `src/actions/grocery_action_14.ts`：處理購物清單的 CRUD 操作（fetch、create、delete、toggle）
+- `src/app/tours_14`：讀取外部 tours API，練習 App Router 與 `next/image`
+- `src/app/supabase_14`：以伺服器端金鑰讀取 Supabase 資料
+- `src/app/user_db_14`：透過 Prisma server actions 管理使用者資料
+- `prisma/schema.prisma`：定義 `User`、`Post` 與 `Grocery` 模型
 
 ## 執行方式
 
@@ -79,7 +92,15 @@ npm install
 npm run dev
 ```
 
-### 2. 啟動 Next.js 專案
+### 2. 啟動 Next.js 專案（最新版本）
+
+```bash
+cd w07_code_stud_14
+npm install
+npm run dev
+```
+
+### 3. 啟動較舊的 Next.js 專案
 
 ```bash
 cd w05_user_14
@@ -87,16 +108,16 @@ npm install
 npm run dev
 ```
 
-### 3. 建置 Next.js 專案
+### 4. 建置 Next.js 專案
 
 ```bash
-cd w05_user_14
+cd w07_code_stud_14
 npm run build
 ```
 
 ## 環境變數
 
-`w04_prisma_14` 與 `w05_user_14` 需要資料庫與 Supabase 設定，至少包含：
+`w04_prisma_14`、`w05_user_14` 與 `w07_code_stud_14` 需要資料庫與 Supabase 設定，至少包含：
 
 ```env
 DATABASE_URL=
@@ -119,6 +140,7 @@ SUPABASE_SECRET_KEY=
 - `demo/md/w03_nextjs_demo_14/w03_nextjs_demo_14.md`
 - `demo/md/w04_prisma_14/w04_prisma_14.md`
 - `demo/md/w05_user_14/w05_user_14.md`
+- `demo/md/w07_code_stud_14/w07_code_stud_14.md`
 
 ## 常用指令
 
