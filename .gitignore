@@ -43,6 +43,12 @@ prisma/dev.db-journal
 *.swp
 *.swo
 
+# Claude Code local settings
+.claude/settings.local.json
+
+# w10 is a nested git repo, managed independently
+w10_shadcn_14/
+
 # OS generated files
 .DS_Store
 Thumbs.db
