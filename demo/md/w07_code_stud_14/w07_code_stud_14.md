@@ -43,26 +43,10 @@ c6b73aa zero2005x       Wed Apr 8 18:53:31 2026 +0800   W07-P1: implement /groce
 ![](w07-p3-4.png)
  
 ```
-
+87636c7 zero2005x       Wed Apr 8 20:50:11 2026 +0800   W07-P3: Grocery READ and CREATE
 ```
 
-### W07-P4:
 
- 
-#### =>
-
- 
-![](W07-p4-1.png)
- 
-#### => 
-
- 
-![](W07-p4-2.png)
- 
-
-```
-
-```
 
 
 ### W07-logs: git logs of W07
