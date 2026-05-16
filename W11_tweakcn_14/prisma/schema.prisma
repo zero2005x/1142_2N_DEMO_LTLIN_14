@@ -1,0 +1,69 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id    Int     @id @default(autoincrement())
+  name  String?
+  email String  @unique
+  posts Post[]
+}
+
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean @default(false)
+  author    User?   @relation(fields: [authorId], references: [id])
+  authorId  Int?
+}
+
+model GroceryItem {
+  id        String  @id @default(uuid())
+  name      String
+  completed Boolean @default(false)
+}
+
+model category_14 {
+  cid              Int       @id
+  cname            String?
+  size             String?
+  image_url        String?
+  remote_image_url String?
+  link_url         String?
+  shop             shop_14[]
+}
+
+model shop_14 {
+  pid            Int          @id
+  pname          String?
+  cat_id         Int?
+  price          Int?
+  img_url        String?
+  remote_img_url String?
+  category       category_14? @relation(fields: [cat_id], references: [cid])
+}
+
+model blog_14 {
+  id       Int     @id @default(autoincrement())
+  img      String?
+  category String?
+  title    String?
+  descrip  String?
+}
+
+model blog_xx {
+  id       Int     @id @default(autoincrement())
+  img      String?
+  category String?
+  title    String?
+  descrip  String?
+}
